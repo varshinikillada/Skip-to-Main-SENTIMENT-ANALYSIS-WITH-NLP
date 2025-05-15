@@ -1,0 +1,20 @@
+import pandas as pd
+
+data = {
+    'review': [
+        'I love this product!',
+        'Horrible customer service.',
+        'Best purchase I have made.',
+        'Never buying this again.',
+        'Absolutely fantastic!',
+        'Terrible quality.',
+        'Very satisfied with my purchase.',
+        'Not what I expected.',
+        'Exceeded my expectations.',
+        'Bad experience, arrived damaged.'
+    ],
+    'sentiment': [1, 0, 1, 0, 1, 0, 1, 0, 1, 0]  
+}
+
+df = pd.DataFrame(data)
+print(df)
